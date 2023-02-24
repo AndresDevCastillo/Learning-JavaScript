@@ -10,11 +10,11 @@ let estudianteMinus = estudiante.toLowerCase();
 
 let NumEstudiante = estudiante.length;
 
-const inicialNombre = nombre.substring(0, 1);
+let inicialNombre = nombre.substring(0, 1);
 
-const finalApellido = apellido.substring(apellido.length - 1, apellido.length);
+let finalApellido = apellido.substring(apellido.length - 1, apellido.length);
 
 
-const estudianteSinEspacios = estudiante.replace(/ /g, "");
+let estudianteSinEspacios = estudiante.replace(/ /g, "");
 
-const nombreEnEstudiante = estudiante.includes(nombre);
+let nombreEnEstudiante = estudiante.includes(nombre);
