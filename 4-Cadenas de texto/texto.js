@@ -17,4 +17,4 @@ let finalApellido = apellido.substring(apellido.length - 1, apellido.length);
 
 let estudianteSinEspacios = estudiante.replace(/ /g, "");
 
-let nombreEnEstudiante = estudiante.includes(nombre);
+let nombreEstudiante = estudiante.includes(nombre);
